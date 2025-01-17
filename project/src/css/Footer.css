@@ -1,0 +1,80 @@
+/* Общие стили футера */
+.footer {
+    background-color: #212529; /* Тёмный фон */
+    color: #ffffff; /* Белый текст */
+    width: 100vw; /* Растягиваем на всю ширину окна */
+    padding: 40px 0; /* Отступы сверху и снизу */
+    margin: 0; /* Убираем любые ограничения */
+    box-sizing: border-box; /* Учитываем отступы в ширине */
+  }
+  
+  /* Контейнер внутри футера */
+  .footer .container {
+    max-width: 1200px; /* Центрируем содержимое */
+    margin: 0 auto; /* Центрирование контейнера */
+    padding: 0 15px; /* Отступы внутри */
+  }
+  
+  /* Заголовки */
+  .footer-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffffff; /* Подчёркивание */
+    padding-bottom: 5px;
+  }
+  
+  /* Ссылки */
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    transition: color 0.2s;
+  }
+  
+  .footer-links a:hover {
+    color: #007bff; /* Цвет при наведении */
+  }
+  
+  /* Социальные иконки */
+  .footer-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px; /* Расстояние между иконками */
+  }
+  
+  .footer-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff; /* Белый круг */
+    color: #212529; /* Тёмный цвет текста */
+    text-align: center;
+    line-height: 40px; /* Центрирование текста */
+    border-radius: 50%; /* Круг */
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-icons a:hover {
+    transform: scale(1.1);
+    color: #007bff;
+  }
+  
+  /* Текст копирайта */
+  .text-center {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #cccccc;
+  }
+  
