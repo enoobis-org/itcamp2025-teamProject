@@ -10,9 +10,10 @@ const Footer = () => {
             <div className="col-md-6 d-flex flex-column align-items-start">
               <h5 className="footer-title">Быстрые ссылки</h5>
               <ul className="footer-links">
-                <li><a href="#">Админ Панель</a></li>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Связаться с нами</a></li>
+              <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">Админ Панель</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">О нас</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">Связаться с нами</a></li>
+
               </ul>
             </div>
   
@@ -40,7 +41,6 @@ const Footer = () => {
             </div>
           </div>
           <div className="text-center mt-4">
-            <p className="mb-1">Copyright © 2025 kgtrip All Rights Reserved.</p>
             <p className="mb-0">Website developed by: enoobis</p>
           </div>
         </div>

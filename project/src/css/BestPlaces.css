@@ -1,0 +1,51 @@
+.places {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .place:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .place img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .place p {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .place img {
+      height: 150px;
+    }
+  
+    .place p {
+      font-size: 14px;
+    }
+  }
+  

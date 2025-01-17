@@ -1,0 +1,18 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+
+.form-range {
+  width: 100%;
+}
